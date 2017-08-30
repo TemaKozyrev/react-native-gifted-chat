@@ -99,6 +99,15 @@ const styles = {
       marginRight: 8,
     },
   }),
+  center: StyleSheet.create({
+    container: {
+      flexDirection: 'row',
+      alignItems: 'flex-end',
+      justifyContent: 'flex-start',
+      marginLeft: 0,
+      marginRight: 0,
+    },
+  })
 };
 
 Message.defaultProps = {
