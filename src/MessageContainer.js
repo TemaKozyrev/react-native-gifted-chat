@@ -145,14 +145,14 @@ export default class MessageContainer extends React.Component {
           initialListSize={20}
           pageSize={20}
 
-          {...this.props.listViewProps}
-
           dataSource={this.state.dataSource}
 
           renderRow={this.renderRow}
           renderHeader={this.renderFooter}
           renderFooter={this.renderLoadEarlier}
           renderScrollComponent={this.renderScrollComponent}
+
+          {...this.props.listViewProps}
         />
       </View>
     );
